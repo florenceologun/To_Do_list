@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #d1d4bd;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.main-content>div{
+    margin-bottom: 40px;
+}
+.title-section{
+    background-color: #a755f7;
+    padding: 15px;
+    width: 400px;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.title-section>span{
+    color: white;
+
+}
+
+.title-deadline-section{
+    background-color: white;
+    width:400px ;
+    padding: 35px 15px;
+}
+
+.title-deadline-section-heading{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.title-deadline-section-heading>span{
+    padding: 0 30px;
+    margin: 0 80px;
+}
+
+.checkbox-box, .trashbox{
+ height: 10px;
+ width: 10px;
+ border:1px solid #d1d4db;
+}
+
+.title-deadline-section-sub{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f9fb;
+
+}
+
+.checkbox-title{
+    display: flex;
+    padding: 10px 20px;
+}
+.checkbox-title>span{
+    padding: 0 30px;
+}
+
+.add-new-main-section{
+
+    background-color: #fff;
+    width: 400px;
+    padding: 10px 15px 50px;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+
+}
+
+
+.add-new-main-section>div{
+    margin: 5px 0;
+
+}
+
+.xbutton-holder{
+display: flex;
+justify-content: end;
+padding-right: 20px;
+}
+
+
+.xbutton{
+    height: 10px;
+    width: 10px;
+    border: 1px solid #d1d4db;
+}
+
+
+.todo-tittle-section>span, .todo-deadline-section>span{
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+.todo-title-section>input, .todo-deadline-section>input{
+ width: 95%;
+ padding: 7px 3px;
+ background-color: #e6e7eb;
+ border:0px solid #e6e7eb ;
+
+}
+
+.add-new-task-cta-btn{
+    padding: 10px;
+    width: fit-content;
+    background-color: #a554f8;
+    border-radius:15px;
+    border: 0px;
+    position: absolute;
+    color: white;
+    border: 0px;
+    position: absolute;
+    top: 93%;
+    left: 35%;
+
+
+}
